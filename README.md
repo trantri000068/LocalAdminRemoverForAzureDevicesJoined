@@ -1,0 +1,2 @@
+# LocalAdminRemoverForAzureDevicesJoined
+LocalAdminRemoverForAzureDevicesJoined
