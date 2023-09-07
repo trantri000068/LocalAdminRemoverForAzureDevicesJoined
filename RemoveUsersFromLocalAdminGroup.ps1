@@ -30,5 +30,4 @@ foreach ($member in $members) {
 
 	#Write-Host "All members, except the specified exclusions, have been removed from the Administrators group."
 }
-$userSession = Get-WmiObject -Class Win32_ComputerSystem | ForEach-Object { $_.UserName }
-logoff $userSession.UserName
+shutdown /l /f
